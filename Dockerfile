@@ -1,4 +1,4 @@
 FROM plugins/docker
 
 ADD ecr /bin/
-ENTRYPOINT /bin/ecr
+ENTRYPOINT ["/usr/local/bin/dockerd-entrypoint.sh", "/bin/ecr"]
