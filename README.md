@@ -8,6 +8,7 @@ name: default
 steps:
   - name: publish
     image: droneplugin/ecr
+    privileged: true
     settings:
       repo: {Your-Repo-Name}
       region: {Your-AWS-Region}
