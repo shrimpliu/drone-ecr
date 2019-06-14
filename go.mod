@@ -1,4 +1,4 @@
-module ecr
+module github.com/shrimpliu/drone-ecr
 
 go 1.12
 
